@@ -1,0 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Lato:wght@300&display=swap" >);
+
+#logo {
+    float: left;
+    font-size: 10%;
+    margin-left: 20px;
+}
