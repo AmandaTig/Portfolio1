@@ -29,8 +29,7 @@ body {
 
 }
 
-h1,
-h2 {
+h1 {
     float: left;
     line-height: 75px;
 
@@ -52,4 +51,8 @@ nav {
 
 #nav-bar a {
     color: black;
+}
+
+#second-heading {
+    margin-bottom: 15px;
 }
