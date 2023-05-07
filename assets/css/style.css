@@ -29,7 +29,8 @@ body {
 
 }
 
-h1 h2 {
+h1,
+h2 {
     float: left;
     line-height: 75px;
 
@@ -38,11 +39,17 @@ h1 h2 {
 
 nav {
     float: right;
+
 }
 
-nav li {
+#nav-bar li {
     float: right;
     list-style-type: none;
     margin-right: 30px;
+
+
+}
+
+#nav-bar a {
     color: black;
 }
