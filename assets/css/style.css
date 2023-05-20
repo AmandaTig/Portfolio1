@@ -1,9 +1,12 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Lato:wght@300&display=swap" >);
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Lato:wght@300&display=swap");
+
+
 
 * {
     margin: 0;
     padding: 0;
     border: none;
+    background-color: #f6f6f6;
 }
 
 body {
@@ -11,11 +14,7 @@ body {
     font-weight: 300;
 }
 
-#logo {
-    height: 160px;
-    width: 160px;
 
-}
 
 #main-head {
     margin-bottom: 30px;
@@ -30,14 +29,20 @@ body {
 }
 
 h1 {
-    float: left;
+
     line-height: 75px;
+    display: block;
 
 
 }
 
+h2 {
+    margin-bottom: 10px
+}
+
 nav {
     float: right;
+    line-height: 75px;
 
 }
 
@@ -55,4 +60,55 @@ nav {
 
 #second-heading {
     margin-bottom: 15px;
+}
+
+
+
+#facilities {
+    display: inline-block;
+}
+
+#obedience {
+    float: left;
+}
+
+#Playground {
+    float: center;
+}
+
+#coffee {
+    float: right;
+}
+
+.trio-images {
+    width: 90%;
+    height: 250px;
+
+}
+
+.container {
+    column-count: 3;
+    margin-top: 30px;
+}
+
+footer {
+    height: 150px;
+}
+
+.social-networks {
+    text-align: center;
+
+
+}
+
+.social-networks>li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #3a3a3a;
+
 }
