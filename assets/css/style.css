@@ -3,7 +3,7 @@
 
 
 * {
-    margin: 0;
+    margin: 10px;
     padding: 0;
     border: none;
     background-color: #f6f6f6;
@@ -56,6 +56,33 @@ nav {
 
 #nav-bar a {
     color: black;
+}
+
+#cover-text {
+    font-size: 100%;
+    font-family: Inter, sans-serif;
+    letter-spacing: 4px;
+
+    width: 350px;
+    height 200px;
+
+    padding-top: 40px;
+    padding-left: 10px;
+
+    background-color: rgba(143, 153, 142, 0.5);
+
+    bottom: 250px;
+    right: 200px;
+
+    position: absolute;
+}
+
+#cover-text h2 {
+    background-color: rgba(143, 153, 142, 0.5);
+}
+
+#cover-text h3 {
+    background-color: rgba(143, 153, 142, 0.5);
 }
 
 #second-heading {
