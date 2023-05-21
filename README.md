@@ -29,9 +29,8 @@ This site is targeted towards people who enjoy dogs and want to meet new like mi
 - Sponsors of the park
 
 ![Location](assets/images/Location.png)
+
 - Google Maps to show location of the park
-
-
 
 -_Sign Up_
 ![Sign up form](assets/images/sign-up-details.png)
@@ -43,16 +42,48 @@ Hightlight the cafe more, with menu and preordering
 
 ## Testing
 
-Open Home Link on each page         PASS
-Open Events Link on each Page       PASS
-Open About Us Link on each page     PASS
-Open Sign Up Link on each Page      PASS
-Check tablet size response          PASS
-Check phone size response           PASS
+Open Home Link on each page PASS
+Open Events Link on each Page PASS
+Open About Us Link on each page PASS
+Open Sign Up Link on each Page PASS
+Check tablet size response PASS
+Check phone size response PASS
 
 ### Validator Testing
 
 - HTML
   - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Famandatig.github.io%2FPortfolio1%2F)
 - CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
+  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Famandatig.github.io%2FPortfolio1%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+  - LIGHTHOUSE
+
+### Unfixed Bugs
+
+I did not identify any bugs in the site
+
+## Deployment
+
+- The site was deployed to GitHub pages. The steps to deploy are as follows:
+  - In the GitHub repository, navigate to the Settings tab
+  - From the source section drop-down menu, select the Master Branch
+  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+
+The live link can be found here - <https://amandatig.github.io/Portfolio1/>
+
+## Credits
+
+I have relied on Code Institute Project "Love running essential project" for code relating to square in main image and media assistance.
+Pexel.com for the photos for main image and photo's on main page
+<https://www.w3schools.com/html/> for code help
+<https://fonts.google.com/> for the fonts used
+<https://www.google.com/maps/search/carrickmacross+dog+park/@53.9747198> for maps iframe
+
+### Content
+
+- The text for the website was written personally
+
+- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+
+### Media
+
+- The photos used on the home and sign up page are from This Open Source site pexel.com and <https://carrickmacross.ie/new-dog-park-open-ruff/>
