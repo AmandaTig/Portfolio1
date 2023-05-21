@@ -77,6 +77,7 @@ Pexel.com for the photos for main image and photo's on main page
 <https://www.w3schools.com/html/> for code help
 <https://fonts.google.com/> for the fonts used
 <https://www.google.com/maps/search/carrickmacross+dog+park/@53.9747198> for maps iframe
+https://monaghan.ie/environment/dog-control-faq/ for the rules of owning a dog on about us page
 
 ### Content
 
