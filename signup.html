@@ -15,18 +15,20 @@
             <nav>
                 <ul id="nav-bar">
                     <li>
-                        <a href="#">Contact Us</a>
+                        <a href="signup.html">Sign Up</a>
+                    </li>
+                    <li>
+                        <a href="contactus.html">About Us</a>
 
                     </li>
+
                     <li>
-                        <a href="#">Gallery</a>
-                    </li>
-                    <li>
-                        <a href="#" class="active">Events</a>
+                        <a href="events.html">Events</a>
                     </li>
                     <li>
                         <a href="index.html">Home</a>
                     </li>
+
                 </ul>
             </nav>
         </section>
@@ -43,32 +45,37 @@
 
 
     </header>
+    <section class="form-section">
+        <form class="signup-form" method="POST" action="https://formdump.codeinstitute.net/" class="signup-form">
+            <h2>My Fury Friend Needs some lessons! <i class="fa-solid fa-paw"></i></h2>
+            <label for="fname">First Name</label>
+            <input class="text-input" id="fname" name="first_name" type="text" required>
+
+            <label for="lname">Last Name</label>
+            <input class="text-input" id="lname" name="last_name" type="text" required>
+
+            <label for="fname">Dogs Name</label>
+            <input class="text-input" id="fname" name="dogs_name" type="text" required>
 
 
-    <footer>
+            <label for="email">Email Address</label>
+            <input class="text-input" type="email" id="email" name="email_address" required>
 
-        <ul class="social-networks">
+            <label for="two">Block of 2 Lessons</label>
+            <input type="radio" id="two" name="Blocks" value="two" required>
+            <br>
+            <label for="four">Block of 4 Lessons</label>
+            <input type="radio" id="four" name="Blocks" value="four" required>
+            <br>
+            <label for="eight">Block of 8 Lessons</label>
+            <input type="radio" id="eight" name="Block" value="eight" required>
 
-            <li>
-                <a href="httpsL//facebook.com" target="blank" rel="noopener"
-                    aria-label="Visit our facebook page(opens in new tab)"><i class="fa-brands fa-facebook"></i></a>
-            </li>
-            <li>
-                <a href="httpsL//twitter.com" target="blank" rel="noopener"
-                    aria-label="Visit our facebook page(opens in new tab)"><i class="fa-brands fa-twitter"></i></i></a>
-            </li>
-            <li>
-                <a href="httpsL//Youtube.com" target="blank" rel="noopener"
-                    aria-label="Visit our facebook page(opens in new tab)"><i class="fa-brands fa-youtube"></i></a>
-            </li>
-            <li>
-                <a href="httpsL//instagram.com" target="blank" rel="noopener"
-                    aria-label="Visit our facebook page(opens in new tab)"><i class="fa-brands fa-instagram"></i></a>
-            </li>
-        </ul>
+            <input class="join-button" type="submit" value="Book Me In">
+        </form>
+    </section>
 
 
-    </footer>
+
 
 </body>
 <!--font awesome script-->
