@@ -248,3 +248,20 @@ label {
     }
 
 }
+
+@media screen nad (max-width:950px) {
+    nav {
+        clear: left;
+        float: left;
+        line-height: 25px;
+
+    }
+
+
+    #cover-text {
+        left: 0;
+        float: left;
+    }
+
+
+}
